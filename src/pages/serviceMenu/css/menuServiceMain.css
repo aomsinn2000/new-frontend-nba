@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200&display=swap');
+a {
+    text-decoration: none !important;
+    color: #5C287F !important;
+}
+a :hover {
+    text-decoration: none !important;
+    color: #9900ff !important;
+}
+.css-ag7rrr-MuiTypography-root ,.css-ahj2mt-MuiTypography-root ,.css-52vftz-MuiTypography-root{
+     font-family: 'Kanit', sans-serif !important;
+}
+.font-family-nba{
+    font-family: 'Kanit', sans-serif !important;
+   
+}
+.text-center{
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+}
+.navbar{
+    z-index: 10;
+    position: relative;
+}
+.size-banner{
+    width: 100%;
+    border-bottom-left-radius:20%;
+    border-bottom-right-radius:20%;
+    position: relative;
+    z-index: 2;
+}
+.size-banner-login{
+    width: 100%;
+    z-index: 1;
+    margin-top: -35%;
+    filter: brightness(50%);
+    background-color: blueviolet;
+    position: relative;
+}
+/* .background-login{
+    width: 100%;
+    height: 40%;
+    background-color: aqua;
+    border-bottom-left-radius:20%;
+    border-bottom-right-radius:20%;
+
+} */
+/* .box{
+    background-color: #ffffff;
+    width: 75%;
+    position: relative;
+    z-index: 3;
+    height: 500px;
+    margin-top: -10%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+} */
+.background-main-menu{
+    width:80%;
+    height: 650px;
+    z-index: 3;
+    background-color: #ffffff;
+    margin-top: -38%;
+    position: relative;
+    z-index: 3;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    font-family: 'Kanit', sans-serif !important;
+}
+.box-nba-oneshop{
+    width: 80%;
+    height: 400px;
+    background: rgb(210,178,255);
+    background: linear-gradient(180deg, rgba(210,178,255,1) 0%, rgba(255,255,255,1) 45%);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    -webkit-text-stroke: 1px #5C287F;
+}
+
+.line-name-header{
+    width: 20%;
+    height: 5px;
+    background-color: #A367F9;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img-nbashop{
+    width: 65%;
+}
+
+.top-line{
+    border-right-style: solid;
+    border-right-color: #eff2f8;
+}
+.txt-detail-main-menu{
+    -webkit-text-stroke: 0.8px #9D84AE;
+}
+.icon-main-menu{
+    color: #5C287F;
+    font-size: 30px;
+}
+.icon-main-menu :hover{
+    color: #3700ff !important;
+    font-size: 60px !important;
+
+}
+
+
+
+@media only screen and (max-width: 1600px) {
+    .size-banner-login{
+        margin-top: -25%;
+    }
+    .background-main-menu {
+        margin-top: -48%;
+    }
+
+  
+}
+
+
+
+
+@media only screen and (max-width: 930px) {
+    .background-main-menu{
+        width:85%;
+    }
+
+  
+}
+
+  
