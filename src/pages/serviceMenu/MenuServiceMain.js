@@ -16,14 +16,16 @@ import { BsFillArrowRightCircleFill } from "react-icons/bs";
 //css
 import "../serviceMenu/css/menuServiceMain.css";
 
-
-
 function MenuServiceMain() {
   return (
     <div className="font-family-nba">
-      <img src={Banner} className="size-banner" />
-      <img src={BannerLogin} className="size-banner-login" />
       
+      <div>
+      <img src={Banner} className="size-banner" />
+      
+      <img src={BannerLogin} className="size-banner-login" />
+      </div>
+
       <div className="background-main-menu">
         <div className="text-center">
           <Typography variant="h4" sx={{ color: "#401D72" }} pt={5}>
@@ -77,6 +79,11 @@ function MenuServiceMain() {
           </Col>
         </Row>
       </div>
+
+
+
+
+
 
 
 

@@ -10,10 +10,10 @@ a :hover {
 .css-ag7rrr-MuiTypography-root ,.css-ahj2mt-MuiTypography-root ,.css-52vftz-MuiTypography-root{
      font-family: 'Kanit', sans-serif !important;
 }
-.font-family-nba{
+h1 ,h2 ,h3 ,h4 ,h5 , h6{
     font-family: 'Kanit', sans-serif !important;
-   
 }
+
 .text-center{
     text-align: center;
     font-family: 'Kanit', sans-serif;
@@ -37,14 +37,7 @@ a :hover {
     background-color: blueviolet;
     position: relative;
 }
-/* .background-login{
-    width: 100%;
-    height: 40%;
-    background-color: aqua;
-    border-bottom-left-radius:20%;
-    border-bottom-right-radius:20%;
 
-} */
 /* .box{
     background-color: #ffffff;
     width: 75%;
@@ -63,7 +56,6 @@ a :hover {
     background-color: #ffffff;
     margin-top: -38%;
     position: relative;
-    z-index: 3;
     margin-left: auto;
     margin-right: auto;
     border-radius: 15px;
@@ -109,6 +101,44 @@ a :hover {
     font-size: 60px !important;
 
 }
+.sticky_back {
+    width: 100%;
+    height: 100vh;
+  
+    grid-row: 1;
+    grid-column: 1;
+    position: sticky;
+    top: 0;
+    background-image: url("https://images.pexels.com/photos/1591447/pexels-photo-1591447.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+
+
+
+
+.background-popular-menu{
+    margin-top: 50px;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+
+    height: 100%;
+    font-family: 'Kanit', sans-serif !important;
+}
+.img-popular-menu {
+    width: 100%;
+    transition: transform 0.3s; /* Animation */
+}
+
+.img-popular-menu:hover {
+    transform: scale(1.2);
+}
+
+
 
 
 
@@ -125,13 +155,70 @@ a :hover {
 
 
 
-
-@media only screen and (max-width: 930px) {
-    .background-main-menu{
-        width:85%;
+@media only screen and (max-width: 1400px) {
+    .background-popular-menu{
+        margin-top: 70px;
     }
 
   
 }
 
+@media only screen and (max-width: 1200px) {
+    .size-banner-login {
+        margin-top: -10%;
+    }
+    .background-main-menu {
+        margin-top: -65%;
+    }
+  
+}
+
+
+
+@media only screen and (max-width: 930px) {
+    .background-main-menu{
+        width:85%;
+        margin-top: -85%;
+        height: 100%;
+        padding-bottom: 25px;
+    }
+    .size-banner-login{
+        margin-top: -15%;
+        height: 800px;
+    }
+
+  
+}
+
+
+@media only screen and (max-width: 450px) {
+    .background-main-menu {
+        margin-top: -355%;
+    }   
+    .size-banner-login {
+        height: 1500px;
+        object-fit: cover;
+    }
+
+  
+}
+
+
+@media only screen and (max-width: 395px){
+    .background-main-menu {
+        margin-top: -370%;
+    }   
+}
+@media only screen and (max-width: 376px){
+    .background-main-menu {
+        margin-top: -385%;
+    }
+}
+
+@media only screen and (max-width: 285px){
+    .background-main-menu {
+        margin-top: -525%;
+    }
+    
+}
   

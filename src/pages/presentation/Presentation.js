@@ -1,7 +1,5 @@
 import * as React from "react";
-import { sizing } from "@mui/system";
-import Box from "@mui/material/Box";
-import Typography from "@mui/material/Typography";
+
 
 //navbar
 import Navbar from "../../assets/components/navbar/Navbar";
@@ -22,14 +20,17 @@ import "./presentation.css";
 //file import
 import MenuServiceMain from "../serviceMenu/MenuServiceMain";
 import MenuServicePopular from "../serviceMenu/MenuServicePopular";
+import MenuServiceAll from "../serviceMenu/MenuServiceAll";
+import Promotion from "../promotion/Promotion";
 
 
 function Presentation() {
   return (
     <div className="font-family-nba">
       <Navbar/>
-      <MenuServiceMain className="test1"/>
-      <MenuServicePopular className="test2"/>
+      <MenuServiceMain/>
+      <MenuServicePopular></MenuServicePopular>
+      <Promotion></Promotion>
 
     </div>
   );
