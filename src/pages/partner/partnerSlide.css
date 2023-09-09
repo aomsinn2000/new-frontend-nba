@@ -1,0 +1,39 @@
+
+
+body {
+    overflow-x: hidden;
+  }
+
+/* partnerSlide.css */
+.news-container {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.slider-wrapper {
+  display: flex;
+  animation: ticker 5s linear infinite;
+  width: auto; /* กำหนดความกว้างให้เท่ากับรวมความกว้างของรูปภาพทั้งหมด */
+}
+
+.news-slider {
+  width: 10%;
+  margin-right: 120px; /* ปรับตามที่คุณต้องการ */
+}
+
+.line-name-partner{
+  width: 10%;
+  height: 5px;
+  background-color: #A367F9;
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@keyframes ticker {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-80%);
+  }
+}

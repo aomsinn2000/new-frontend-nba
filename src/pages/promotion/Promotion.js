@@ -1,7 +1,7 @@
-import { useState } from "react";
 import * as React from "react";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
+
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Row, Col } from "react-bootstrap";
@@ -13,6 +13,7 @@ import "../promotion/promotion.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+
 
 
 
@@ -50,6 +51,7 @@ function Promotion() {
     ],
   };
 
+
   return (
     <>
       <div class="background-promotion">
@@ -66,68 +68,61 @@ function Promotion() {
           <Box className="line-name-header" />
         </div>
 
-     
+       
 
-        <Container>
-        <Slider {...settings} className="py-5">
-         
-         <div>
-           <img
-             src={require("../../assets/images/allApp/002-เคาน์เตอร์เซอร์วิส.png")}
-             className="img-promotion"
-           ></img>
-         </div>
-         <div>
-           <img
-             src={require("../../assets/images/allApp/002-เคาน์เตอร์เซอร์วิส.png")}
-             className="img-promotion"
-           ></img>
-         </div>
-         <div>
-           <img
-             src={require("../../assets/images/allApp/002-เคาน์เตอร์เซอร์วิส.png")}
-             className="img-promotion"
-           ></img>
-         </div>
-         <div>
-           <img
-             src={require("../../assets/images/allApp/002-เคาน์เตอร์เซอร์วิส.png")}
-             className="img-promotion"
-           ></img>
-         </div>
-         <div>
-           <img
-             src={require("../../assets/images/allApp/002-เคาน์เตอร์เซอร์วิส.png")}
-             className="img-promotion"
-           ></img>
-         </div>
-         <div>
-           <img
-             src={require("../../assets/images/allApp/002-เคาน์เตอร์เซอร์วิส.png")}
-             className="img-promotion"
-           ></img>
-         </div>
-         <div>
-           <img
-             src={require("../../assets/images/allApp/002-เคาน์เตอร์เซอร์วิส.png")}
-             className="img-promotion"
-           ></img>
-         </div>
-         <div>
-           <img
-             src={require("../../assets/images/allApp/002-เคาน์เตอร์เซอร์วิส.png")}
-             className="img-promotion"
-           ></img>
-         </div>
-         <div>
-           <img
-             src={require("../../assets/images/allApp/002-เคาน์เตอร์เซอร์วิส.png")}
-             className="img-promotion"
-           ></img>
-         </div>
-       </Slider>
-        </Container>
+        <Slider {...settings} className="size-promotion py-5">
+          <div>
+            <img
+              src={require("../../assets/images/promotion/A_บริการการสร้างเพจและดูแลเพจ-01.jpg")}
+              className="img-promotion"
+            ></img>
+          </div>
+          <div>
+            <img
+              src={require("../../assets/images/promotion/C_บริการการสร้างเพจและดูแลเพจ.png")}
+              className="img-promotion"
+            ></img>
+          </div>
+          <div>
+            <img
+              src={require("../../assets/images/promotion/D_บริการการสร้างเพจและดูแลเพจ.png")}
+              className="img-promotion"
+            ></img>
+          </div>
+          <div>
+            <img
+              src={require("../../assets/images/promotion/NBA poster-01.jpg")}
+              className="img-promotion"
+            ></img>
+          </div>
+          <div>
+            <img
+              src={require("../../assets/images/promotion/PROMOTION LOGO-01.jpg")}
+              className="img-promotion"
+            ></img>
+          </div>
+          <div>
+            <img
+              src={require("../../assets/images/promotion/บริการการสร้างเพจและดูแลเพจรวม.png")}
+              className="img-promotion"
+            ></img>
+          </div>
+          <div>
+            <img
+              src={require("../../assets/images/promotion/บริการสร้างไลน์-LINE-BUSINESS.png")}
+              className="img-promotion"
+            ></img>
+          </div>
+          <div>
+            <img
+              src={require("../../assets/images/promotion/เว็บไซต์ขายสินค้า.png")}
+              className="img-promotion"
+            ></img>
+          </div>
+        </Slider>
       </div>
+
+      
     </>
   );
 }

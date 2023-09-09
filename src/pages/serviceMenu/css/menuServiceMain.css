@@ -124,6 +124,7 @@ h1 ,h2 ,h3 ,h4 ,h5 , h6{
     position: relative;
     z-index: 1;
     width: 100%;
+    padding-top: 100px;
     background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
 
     height: 100%;
@@ -137,6 +138,12 @@ h1 ,h2 ,h3 ,h4 ,h5 , h6{
 .img-popular-menu:hover {
     transform: scale(1.2);
 }
+
+
+
+
+
+
 
 
 
@@ -221,4 +228,4 @@ h1 ,h2 ,h3 ,h4 ,h5 , h6{
     }
     
 }
-  
+

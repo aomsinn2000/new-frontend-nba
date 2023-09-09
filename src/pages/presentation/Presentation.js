@@ -1,8 +1,9 @@
 import * as React from "react";
 
 
-//navbar
+//Components Navbar and Footer
 import Navbar from "../../assets/components/navbar/Navbar";
+import Footer from "../../assets/components/footer/Footer";
 
 //images
 import Banner from "../../assets/images/nba-car.75a13262.jpg";
@@ -22,6 +23,9 @@ import MenuServiceMain from "../serviceMenu/MenuServiceMain";
 import MenuServicePopular from "../serviceMenu/MenuServicePopular";
 import MenuServiceAll from "../serviceMenu/MenuServiceAll";
 import Promotion from "../promotion/Promotion";
+import PromotePr from "../promotion/PromotePr";
+import PartnerSlide from "../partner/PartnerSlide";
+
 
 
 function Presentation() {
@@ -31,6 +35,9 @@ function Presentation() {
       <MenuServiceMain/>
       <MenuServicePopular></MenuServicePopular>
       <Promotion></Promotion>
+      <PromotePr></PromotePr>
+      <PartnerSlide></PartnerSlide>
+      <Footer></Footer>
 
     </div>
   );
