@@ -21,25 +21,25 @@ function PromotePr() {
               <Typography>ยินดีต้อนรับ พร้อมบริการทุกระดับประทับใจ</Typography>
               <Box className="line-name-header" />
             </div>
-            <Col md={6} className="mt-5">
+            <Col xs={6} className="mt-5">
               <img
                 src={require("../../assets/images/ร๊อคอินหน้าเวบ-02.jpg")}
                 className="img-promote"
               ></img>
             </Col>
-            <Col md={6}>
-              <Typography variant="h4" sx={{ color: "#401D72" }} pt={5}>
+            <Col xs={6}>
+              <Typography variant="h4" sx={{ color: "#401D72" }} pt={5} className="txt-responsive">
                 <b>ที่เดียวครบ...จบที่เรา จบทุกบริการ</b>
               </Typography>
               <Typography>ยินดีต้อนรับ พร้อมบริการทุกระดับประทับใจ</Typography>
             </Col>
-            <Col md={6}>
-              <Typography variant="h4" sx={{ color: "#401D72" }} pt={5}>
+            <Col xs={6}>
+              <Typography variant="h4" sx={{ color: "#401D72" }} pt={5} className="txt-responsive">
                 <b>ที่เดียวครบ...จบที่เรา จบทุกบริการ</b>
               </Typography>
               <Typography>ยินดีต้อนรับ พร้อมบริการทุกระดับประทับใจ</Typography>
             </Col>
-            <Col md={6} className="mt-5">
+            <Col xs={6} className="mt-5">
               <img
                 src={require("../../assets/images/ร๊อคอินหน้าเวบ-02.jpg")}
                 className="img-promote"

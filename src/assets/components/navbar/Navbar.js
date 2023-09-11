@@ -1,51 +1,60 @@
-import { useState } from "react";
-import "./navbar.css";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import NavDropdown from "react-bootstrap/NavDropdown";
+import "../navbar/navbar.css";
 
-export default function Navbar() {
-  const [isNavExpanded, setIsNavExpanded] = useState(false);
-
+function CollapsibleExample() {
   return (
-    <nav className="navigation">
-      <a href="/" className="brand-name">
-        MacroSoft
-      </a>
-      <button
-        className="hamburger"
-        onClick={() => {
-          setIsNavExpanded(!isNavExpanded);
-        }}
-      >
-        {/* icon from Heroicons.com */}
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          className="h-5 w-5"
-          viewBox="0 0 20 20"
-          fill="white"
-        >
-          <path
-            fillRule="evenodd"
-            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
-            clipRule="evenodd"
-          />
-        </svg>
-      </button>
-      <div
-        className={
-          isNavExpanded ? "navigation-menu expanded" : "navigation-menu"
-        }
-      >
-        <ul>
-          <li>
-            <a href="/home">Home</a>
-          </li>
-          <li>
-            <a href="/about">About</a>
-          </li>
-          <li>
-            <a href="/contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
+      <Container>
+        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="xl-text-center ">
+            <Nav.Link href="#features">เช็คเลขพัสดุ</Nav.Link>
+            <NavDropdown title="บริการ" id="collapsible-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">
+               fdfdf
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">
+               fdf
+              </NavDropdown.Item>
+            </NavDropdown>
+            <NavDropdown title="ศูนย์บริการของเรา" id="collapsible-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">
+                บริการของเรา
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">
+                Another action
+              </NavDropdown.Item>
+            </NavDropdown>
+            <NavDropdown title="เกี่ยวกับเรา" id="collapsible-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">
+                บริการของเรา
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">
+                Another action
+              </NavDropdown.Item>
+            </NavDropdown>
+            <NavDropdown title="ช่วยเหลือ" id="collapsible-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">
+                บริการของเรา
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">
+                Another action
+              </NavDropdown.Item>
+            </NavDropdown>
+            <Nav.Link href="#features" className="contact-us text-center">
+              ติดต่อเรา
+            </Nav.Link>
+          </Nav>
+
+        
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 }
+
+export default CollapsibleExample;
