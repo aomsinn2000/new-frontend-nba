@@ -31,8 +31,6 @@ import PartnerSlide from "../partner/PartnerSlide";
 function Presentation() {
   return (
     <div className="font-family-nba">
-      
-      <Navbar/>
       <MenuServiceMain/>
       <MenuServicePopular></MenuServicePopular>
       <Promotion></Promotion>

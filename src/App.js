@@ -1,25 +1,37 @@
-import logo from '../src/assets/images/NBA-ONE-STOP-SHOP.png';
-import './App.css';
+import * as React from "react";
 
-function App() {
+//Components Navbar and Footer
+import Navbar from "../src/assets/components/navbar/Navbar";
+import Footer from "../src/assets/components/footer/Footer";
+
+//bootstrap
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Button, Container, Grid, Card, Row, Col } from "react-bootstrap";
+import { BsFillArrowRightCircleFill } from "react-icons/bs";
+
+//css
+import "../src/pages/presentation/presentation.css";
+
+//file import
+import Presentation from "../src/pages/presentation/Presentation";
+import MenuServiceAll from "../src/pages/serviceMenu/MenuServiceAll";
+
+
+
+import { Route, Routes } from "react-router-dom";
+
+function AppTest() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="font-family-nba">
+      <Navbar />
+      <div>
+        <Routes>
+          <Route path="/" element={<Presentation />} />
+          <Route path="/MenuServiceAll" element={<MenuServiceAll />} />
+        </Routes>
+      </div>
     </div>
   );
 }
 
-export default App;
+export default AppTest;

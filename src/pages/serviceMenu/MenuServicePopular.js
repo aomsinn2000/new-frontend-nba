@@ -15,7 +15,7 @@ import "./css/menuServiceMain.css";
 function MenuServicePopular() {
   return (
     <>
-      <div className="background-popular-menu mb-5">
+      <div className="background-popular-menu">
         <Container>
           <div className="text-center">
             <Typography variant="h4" sx={{ color: "#401D72" }} pt={5}>

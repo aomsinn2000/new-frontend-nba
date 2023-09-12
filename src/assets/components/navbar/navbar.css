@@ -28,7 +28,7 @@
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 .img-logo{
-  width: 100px;
+  width: 130px;
 }
 .navbar-expand-lg .navbar-collapse {
   display: flex;
@@ -62,5 +62,7 @@
   display: flex;
   justify-content: start;
 }
-
+.img-logo{
+  width: 180px;
+}
 }
