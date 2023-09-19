@@ -1,0 +1,73 @@
+.background-investment{
+    /* background: linear-gradient(to top, #d7b7f8b6, rgba(255, 255, 255, 0.596)),url('../.././../assets/images/background/buble2.png'); */
+    /* background: linear-gradient(to top, hsla(0, 0%, 100%, 0.808), rgba(255, 255, 255, 0.973)),url('../../../assets/images/background/buble2.png'); */
+    background: linear-gradient(to top, hsla(276, 100%, 86%, 0.808), rgba(255, 255, 255, 0.973)),url('../../../assets/images/background/background1.jpg');
+
+    background-repeat: round;
+    background-attachment: fixed;
+    margin-top: -15%;
+    padding-top: 15%;
+    padding-bottom: 50px;
+
+    
+    
+}
+.icon-investment{
+   height: 50px;
+   width: 50px;
+    color: green;
+}
+.txt-investment{
+    padding-left: 2%;
+    font-size: 20px;
+    text-shadow: 5px 5px 10px #8c00ff;
+    -webkit-text-stroke: 1.5px rgb(115, 15, 182);
+}
+.txt-flex{
+    display: flex;
+    align-items: center;
+    margin-bottom: 3%;
+}
+.txt-investment-size{
+    font-size: 50px;
+    text-shadow: 5px 5px 10px #8c00ff;
+    -webkit-text-stroke: 1.5px rgb(115, 15, 182);
+
+}
+.txt-investment-small{
+    font-size: 20px;
+
+    -webkit-text-stroke: 1px rgb(115, 15, 182);
+
+}
+.img-investment{
+    width: 100%;
+    border-radius: 25px;
+    margin-top: 5%;
+}
+
+
+@media only screen and (max-width:1200px){
+    .background-investment{
+        background-repeat: repeat;
+        margin-top: -25%;
+        padding-top: 25%;
+
+    }
+}
+
+@media only screen and (max-width:576px){
+    .txt-investment-size{
+       display: none;
+    }
+    .txt-investment{
+        font-size: 12px;
+        -webkit-text-stroke: 0.5px rgb(115, 15, 182);
+
+          }
+    .icon-investment{
+        height: 25px;
+        width: 25px;
+       
+     }
+}

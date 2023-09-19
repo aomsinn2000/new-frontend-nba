@@ -5,7 +5,7 @@ import Typography from "@mui/material/Typography";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import "./PromotePr";
+import "./Promotion.css";
 
 //slick slider
 import "slick-carousel/slick/slick.css";

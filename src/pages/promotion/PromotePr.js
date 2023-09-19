@@ -5,7 +5,7 @@ import Typography from "@mui/material/Typography";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Row, Col } from "react-bootstrap";
 
-import "./Promotion";
+import "./Promotion.css";
 
 function PromotePr() {
   return (
