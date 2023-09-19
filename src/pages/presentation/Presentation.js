@@ -16,15 +16,15 @@ import { Button, Container, Grid, Card, Row, Col } from "react-bootstrap";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 
 //css
-import "./presentation.css";
+import "./Presentation.css";
 
 //file import
-import MenuServiceMain from "../serviceMenu/MenuServiceMain";
-import MenuServicePopular from "../serviceMenu/MenuServicePopular";
-import MenuServiceAll from "../serviceMenu/MenuServiceAll";
-import Promotion from "../promotion/Promotion";
-import PromotePr from "../promotion/PromotePr";
-import PartnerSlide from "../partner/PartnerSlide";
+import MenuServiceMain from "../ServiceMenu/MenuServiceMain";
+import MenuServicePopular from "../ServiceMenu/MenuServicePopular";
+import MenuServiceAll from "../ServiceMenu/MenuServiceAll";
+import Promotion from "../Promotion/Promotion";
+import PromotePr from "../Promotion/PromotePr";
+import PartnerSlide from "../Partner/PartnerSlide";
 
 
 

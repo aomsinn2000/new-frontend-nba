@@ -10,7 +10,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 
 
-import "./css/menuServiceMain.css";
+import "./css/ServiceMenu.css";
 
 function MenuServicePopular() {
   return (
@@ -137,7 +137,7 @@ function MenuServicePopular() {
             
           </Row>
 
-            <a href="#" className="d-flex justify-content-center py-5">
+            <a href="/MenuServiceAll" className="d-flex justify-content-center py-5">
                 <h4><b>บริการทั้งหมดที่นี่ </b></h4>
                 <BsFillArrowRightCircleFill className="icon-main-menu px-1"/>
             </a>

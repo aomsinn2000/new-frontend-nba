@@ -1,0 +1,36 @@
+.background-shipping{
+    background: linear-gradient(to top, #eae9ebb6, rgba(255, 255, 255, 0.973)),url('../../assets/images/background/buble2.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: -6%;
+    padding-bottom: 50px;
+}
+.txt-shipping {
+  padding-top: 10%;
+    position: relative; 
+    font-size: 14rem;
+    line-height: 0.9;
+    text-align: center;
+    -webkit-text-stroke: 0.8px #5f009e;
+  }
+.txt-name-shipping{
+
+  -webkit-text-stroke: 0.8px #5f009e;
+}
+  .img-shipping{
+    width: 80%;
+    cursor: pointer;
+    transition: transform 0.3s; /* Animation */
+  }
+
+
+.img-shipping:hover {
+    transform: scale(1.2);
+}
+
+@media only screen and (max-width: 576px) {
+  .img-shipping{
+    width: 100%;
+  }
+  
+}

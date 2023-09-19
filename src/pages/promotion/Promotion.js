@@ -4,10 +4,8 @@ import Typography from "@mui/material/Typography";
 
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Container, Row, Col } from "react-bootstrap";
-import { BsFillArrowRightCircleFill } from "react-icons/bs";
 
-import "../promotion/promotion.css";
+import "./PromotePr";
 
 //slick slider
 import "slick-carousel/slick/slick.css";

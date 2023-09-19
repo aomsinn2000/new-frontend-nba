@@ -25,8 +25,8 @@ function CollapsibleExample() {
               <NavDropdown.Item>
                 <Link to="/MenuServiceAll"> บริการของบริษัท</Link>
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                บริการขนส่งของเรา
+              <NavDropdown.Item to="/ShippingCompanny">
+                <Link to="/ShippingCompanny"> บริการขนส่งของเรา</Link>
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 รูปแบบการลงทุน(ทั่วไป)

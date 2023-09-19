@@ -11,7 +11,7 @@
     padding-bottom: 2%;
     background-attachment: fixed;
     background-size: cover;
-    margin-top: 5%;
+
 }
 .img-footer{
     width: 50%;
@@ -29,6 +29,7 @@
 .txt-footer:hover{
     -webkit-text-stroke: 1px #f334ca !important;
 }
+
 
 
 

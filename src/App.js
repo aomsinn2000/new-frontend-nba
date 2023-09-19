@@ -10,11 +10,12 @@ import { Button, Container, Grid, Card, Row, Col } from "react-bootstrap";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 
 //css
-import "../src/pages/presentation/presentation.css";
+import "../src/pages/Presentation/Presentation.css";
 
 //file import
-import Presentation from "../src/pages/presentation/Presentation";
-import MenuServiceAll from "../src/pages/serviceMenu/MenuServiceAll";
+import Presentation from "../src/pages/Presentation/Presentation";
+import MenuServiceAll from "../src/pages/ServiceMenu/MenuServiceAll";
+import ShippingCompanny  from "../src/pages/ShippingCompany/ShippingCompany";
 
 
 
@@ -28,6 +29,7 @@ function AppTest() {
         <Routes>
           <Route path="/" element={<Presentation />} />
           <Route path="/MenuServiceAll" element={<MenuServiceAll />} />
+          <Route path="/ShippingCompanny" element={<ShippingCompanny />}  />
         </Routes>
       </div>
     </div>

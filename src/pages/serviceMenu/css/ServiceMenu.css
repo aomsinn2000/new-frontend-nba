@@ -139,8 +139,16 @@ h1 ,h2 ,h3 ,h4 ,h5 , h6{
     transform: scale(1.2);
 }
 
+
+
+
+.background-main-menu-all{
+    background: linear-gradient(to top, #ffffffb6, rgba(255, 255, 255, 0.973)),url('../../../assets/images/background/buble2.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 .img-main-all-menu{
-    padding-top: 20%;
+    padding-top: 30%;
     width: 100%;
 }
 
@@ -188,12 +196,10 @@ h1 ,h2 ,h3 ,h4 ,h5 , h6{
     transform: translate(-50%, -50%);
     text-align: center;
   }
+  .show-mobile{
+    display: none;
+  }
 
-/* .background-test{
-    background: linear-gradient(110deg, #b63bfd 60%, #b74bff 60%);url('../../../assets/images/background/background1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
 
 
 
@@ -243,8 +249,24 @@ h1 ,h2 ,h3 ,h4 ,h5 , h6{
         margin-top: -15%;
         height: 800px;
     }
-
+    .img-detail-all-menu {
+        margin-top: 20px;
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: inherit;
+        box-shadow: none;
+    }  
+    
   
+}
+@media only screen and (max-width: 760px) {
+    .show-desktop{
+        display: none;
+    }
+    .show-mobile{
+        display: block;
+    }
 }
 
 
@@ -255,6 +277,13 @@ h1 ,h2 ,h3 ,h4 ,h5 , h6{
     .size-banner-login {
         height: 1500px;
         object-fit: cover;
+    }
+    .img-main-all-menu{
+        width:  100%;
+    }
+  
+    .css-52vftz-MuiTypography-root{
+        font-size: 15px !important;
     }
 
   

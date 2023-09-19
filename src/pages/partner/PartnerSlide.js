@@ -1,5 +1,5 @@
 import React from "react";
-import "../partner/partnerSlide.css";
+import "./PartnerSlide.css";
 
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";

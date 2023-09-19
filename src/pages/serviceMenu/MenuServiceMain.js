@@ -14,7 +14,7 @@ import { Row, Col } from "react-bootstrap";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 
 //css
-import "../serviceMenu/css/menuServiceMain.css";
+import "./css/ServiceMenu.css";
 
 function MenuServiceMain() {
   return (
@@ -22,7 +22,6 @@ function MenuServiceMain() {
       
       <div>
       <img src={Banner} className="size-banner" />
-      
       <img src={BannerLogin} className="size-banner-login" />
       </div>
 
