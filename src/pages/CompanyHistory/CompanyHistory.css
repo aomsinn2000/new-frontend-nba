@@ -1,0 +1,67 @@
+.background-company{
+    background: linear-gradient(to top, #eae9ebb6, rgba(255, 255, 255, 0.973)),url('../../assets/images/background/buble2.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-bottom: 50px;
+    margin-top: -6%;
+    padding-top: 10%;
+}
+
+
+/* .background-company{
+    background: linear-gradient(to top, #ebd7ffb6, rgba(249, 247, 252, 0.973)),url('../../assets/images/background/background3.jpg');
+    background-repeat: round;
+    background-attachment: fixed;
+    margin-top: -6%;
+    padding-top: 10%;
+} */
+.MainCard{
+    border-radius: 25px;
+    padding-top: 5%;
+    font-size: 16px;
+    -webkit-text-stroke: 1px rebeccapurple;
+    padding-bottom: 15%;
+    
+}
+
+li{
+    padding-bottom: 25px;
+}
+
+.txt-history {
+      position: relative; 
+      font-size: 14rem;
+      line-height: 0.9;
+      text-align: center;
+      -webkit-text-stroke: 0.8px #5f009e;
+    }
+
+.video-history{
+    width: 70%;
+    border: 25px solid rgba(0, 0, 0, 0.87);
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+iframe{
+    height: 520px;
+}
+
+@media only screen and (max-width:576px){
+    .video-history{
+        width: 100%;
+        border: 15px solid rgba(0, 0, 0, 0.87);
+    }
+    iframe{
+        height: 200px;
+    }
+    .background-company{
+              background-repeat: repeat;
+
+    }
+    .MainCard{
+        -webkit-text-stroke: 0.2px rebeccapurple;
+    }
+    
+    
+}

@@ -1,9 +1,8 @@
 import Footer from "../../../assets/components/footer/Footer";
 
-import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 
-import Banner from "../../../assets/images/nba-car.75a13262.jpg";
+import Banner from "../../../assets/images/bannerBackground/รูปแบบการลงทุน(ทั่วไป).png";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Row, Col } from "react-bootstrap";

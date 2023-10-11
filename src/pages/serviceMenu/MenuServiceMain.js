@@ -4,7 +4,7 @@ import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 
 //images
-import Banner from "../../assets/images/nba-car.75a13262.jpg";
+import Banner from "../../assets/images/bannerBackground/เอ็นบีเอ2.png";
 import BannerLogin from "../../assets/images/ร๊อคอินหน้าเวบ-02.jpg";
 import NbaOneShop from "../../assets/images/NBA-ONE-STOP-SHOP.png";
 
@@ -65,7 +65,7 @@ function MenuServiceMain() {
           <Col sm={6} md={4}>
             <Box className="box-nba-oneshop" pt={2}>
               <img src={NbaOneShop} className="img-nbashop"></img>
-              <a href="#">
+              <a href="https://dealer.nbadigitalservice.com/">
                 <h4 className="pt-4">
                   <b>สมัครเป็นสมาชิกกับเราที่นี่</b>
                 </h4>

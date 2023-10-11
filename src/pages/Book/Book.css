@@ -1,0 +1,21 @@
+.background-book{
+    padding: 50px;
+    padding-top: 15%;
+    background-color: antiquewhite;
+    margin-top: -10%;
+}
+iframe {
+    height: 600px;
+    width: 100%;
+}
+
+
+@media only screen and (max-width:576px){
+    .background-book{
+        padding: 5px;
+    }
+    iframe {
+        height: 600px;
+        width: 100%;
+    }
+}

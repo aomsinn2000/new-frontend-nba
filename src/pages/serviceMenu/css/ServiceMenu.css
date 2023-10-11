@@ -140,13 +140,21 @@ h1 ,h2 ,h3 ,h4 ,h5 , h6{
 }
 
 
-
-
 .background-main-menu-all{
+    /* background: linear-gradient(to top, #5d33a0b6, rgba(183, 110, 231, 0.596)),url('../../../assets/images/background/background10.jpg'); */
+    background:url('../../../assets/images/background/background10.jpg');
+    /* background: linear-gradient(to top, #ffffffb6, rgba(255, 255, 255, 0.973)),url('../../../assets/images/background/buble2.png'); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: -8%;
+    padding-top: 8%;
+}
+
+/* .background-main-menu-all{
     background: linear-gradient(to top, #ffffffb6, rgba(255, 255, 255, 0.973)),url('../../../assets/images/background/buble2.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
+} */
 .img-main-all-menu{
     padding-top: 30%;
     width: 100%;
@@ -200,6 +208,16 @@ h1 ,h2 ,h3 ,h4 ,h5 , h6{
     display: none;
   }
 
+  @media only screen and (max-width: 1850px) {
+    .size-banner-login{
+        margin-top: -30%;
+    }
+    .background-main-menu {
+        margin-top: -45%;
+    }
+
+  
+}
 
 
 

@@ -3,6 +3,8 @@ import Footer from "../../assets/components/footer/Footer";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 
+import Banner from "../../assets/images/bannerBackground/บริการของเรา.png";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Row, Col } from "react-bootstrap";
 
@@ -10,8 +12,13 @@ import data from "../ServiceMenu/data/MenuServiceData"
 
 function MenuAll() {
   return (
-    <div className="background-main-menu-all">
-      <Container>
+    <div> 
+      
+      <img src={Banner} className="size-banner" />
+
+      
+      <div className="background-main-menu-all">
+      <Container className="mb-5">
         <div className="text-center">
           <Typography variant="h4" sx={{ color: "#401D72" }} pt={5}>
             <b>บริการเซอร์วิสของเราทั้งหมดที่นี่</b>
@@ -66,7 +73,8 @@ function MenuAll() {
         })}
       </Container>
       <Footer />
-    </div>
+    </div></div>
+   
   );
 }
 

@@ -1,5 +1,5 @@
 import React from "react";
-import "./PartnerSlide.css";
+import "./PartnerSlide.scss";
 
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
@@ -13,60 +13,52 @@ function PartnerSlide() {
         </Typography>
         <Box className="line-name-partner" />
       </div>
-      <div className="news-container mt-5 mb-5">
-        <div className="slider-wrapper">
-          <img
-            src={require("../../assets/images/partner/logo-01.b392910e.png")}
-            alt="Partner Logo 1"
-            className="news-slider"
-          />
-          <img
-            src={require("../../assets/images/partner/logo-02.cf843fbb.png")}
-            alt="Partner Logo 2"
-            className="news-slider"
-          />
-          <img
-            src={require("../../assets/images/partner/logo-04.b89e0e66.png")}
-            alt="Partner Logo 3"
-            className="news-slider"
-          />
-          <img
-            src={require("../../assets/images/partner/logo-06.f29cdd8b.png")}
-            alt="Partner Logo 1"
-            className="news-slider"
-          />
-          <img
-            src={require("../../assets/images/partner/logo-07.b71c66f9.png")}
-            alt="Partner Logo 2"
-            className="news-slider"
-          />
-          <img
-            src={require("../../assets/images/partner/logo-08.faa9324e.png")}
-            alt="Partner Logo 3"
-            className="news-slider"
-          />
-          <img
-            src={require("../../assets/images/partner/logo-09.a521b38a.png")}
-            alt="Partner Logo 3"
-            className="news-slider"
-          />
-          <img
-            src={require("../../assets/images/partner/logo-10.d98d9284.png")}
-            alt="Partner Logo 3"
-            className="news-slider"
-          />
-          <img
-            src={require("../../assets/images/partner/logo-11.e30fbc79.png")}
-            alt="Partner Logo 3"
-            className="news-slider"
-          />
-          <img
-            src={require("../../assets/images/partner/logonba-worlds.c6e24cda.png")}
-            alt="Partner Logo 3"
-            className="news-slider"
-          />
-        </div>
-      </div>
+      <div className="slider">
+	<div className="slide-track">
+		<div className="slide">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+		</div>
+		<div className="slide">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+		</div>
+		<div className="slide">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+		</div>
+		<div className="slide">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+		</div>
+		<div className="slide">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+		</div>
+		<div className="slide">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+		</div>
+		<div className="slide">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+		</div>
+		<div className="slide">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+		</div>
+		<div className="slide">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+		</div>
+		<div className="slide">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+		</div>
+		<div className="slide">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+		</div>
+		<div className="slide">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+		</div>
+		<div className="slide">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+		</div>
+		<div className="slide">
+			<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+		</div>
+	</div>
+</div>
     </>
   );
 }

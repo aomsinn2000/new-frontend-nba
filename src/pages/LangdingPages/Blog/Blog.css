@@ -1,0 +1,20 @@
+.accordion-header{
+    -webkit-text-stroke: 1px #ffffff;
+}
+.accordion-body {
+    color: #000000;
+    background: #ddc6f1;
+    -webkit-text-stroke: 1px #300279;
+}
+.accordion-item:first-of-type .accordion-button {
+     background: #4c037d;
+
+}
+.accordion-button{
+    background: #4c037d;
+
+
+}
+.accordion-button:not(.collapsed) {
+    background-color: #4c037d;
+    }

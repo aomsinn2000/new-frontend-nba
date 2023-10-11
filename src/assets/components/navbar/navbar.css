@@ -2,7 +2,7 @@
 
   .navbar{
     background: rgb(65,181,255) !important;
-    background: linear-gradient(90deg, rgba(65,181,255,1) 0%, rgba(119,91,254,1) 100%) !important;
+    background: linear-gradient(90deg, rgba(65,181,255,1) 0%, rgb(137 61 252) 100%) !important;
     color: #ffff;
     position: sticky !important;
     top: 0;
@@ -11,6 +11,9 @@
   .nav-link{
     color: #ffff !important;
     -webkit-text-stroke: 0.2px rgb(255, 255, 255);
+  }
+  .txt-checkParcel{
+    color: #ffff !important;
   }
 
   .contact-us{

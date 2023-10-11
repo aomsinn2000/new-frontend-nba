@@ -1,0 +1,7 @@
+.background-company{
+    background: linear-gradient(to top, #eae9ebb6, rgba(255, 255, 255, 0.973)),url('../../assets/images/background/buble2.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: -6%;
+    padding-bottom: 50px;
+}

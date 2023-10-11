@@ -5,7 +5,7 @@ import Typography from "@mui/material/Typography";
 
 
 //images
-import Banner from "../../assets/images/bannerBackground/เมสเซนเจอร์ส่งเอกสาร.9aa3bf4f.jpg";
+import Banner from "../../assets/images/bannerBackground/บริการขนส่งของเรา.png";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Row, Col } from "react-bootstrap";
