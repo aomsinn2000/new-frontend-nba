@@ -7,10 +7,10 @@ import Navbar from "../src/assets/components/navbar/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 //css
-import "../src/pages/Presentation/Presentation.css";
+import "./pages/Presentation/Presentation.css";
 
 //file import
-import Presentation from "../src/pages/Presentation/Presentation";
+import Presentation from "./pages/Presentation/Presentation";
 import MenuServiceAll from "../src/pages/ServiceMenu/MenuServiceAll";
 import ShippingCompanny  from "../src/pages/ShippingCompany/ShippingCompany";
 import Investment from "./pages/LangdingPages/Investment/Investment";

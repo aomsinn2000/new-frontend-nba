@@ -142,7 +142,7 @@ h1 ,h2 ,h3 ,h4 ,h5 , h6{
 
 .background-main-menu-all{
     /* background: linear-gradient(to top, #5d33a0b6, rgba(183, 110, 231, 0.596)),url('../../../assets/images/background/background10.jpg'); */
-    background:url('../../../assets/images/background/background10.jpg');
+    /* background:url('../../../assets/images/background/background10.jpg'); */
     /* background: linear-gradient(to top, #ffffffb6, rgba(255, 255, 255, 0.973)),url('../../../assets/images/background/buble2.png'); */
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -255,7 +255,6 @@ h1 ,h2 ,h3 ,h4 ,h5 , h6{
 }
 
 
-
 @media only screen and (max-width: 930px) {
     .background-main-menu{
         width:85%;
@@ -278,6 +277,18 @@ h1 ,h2 ,h3 ,h4 ,h5 , h6{
     
   
 }
+
+
+@media only screen and (max-width: 835px) {
+    .background-main-menu {
+        margin-top: -205%;
+    }
+    .size-banner-login {
+        margin-top: -15%;
+        height: 1500px;
+    }
+}
+
 @media only screen and (max-width: 760px) {
     .show-desktop{
         display: none;
@@ -287,6 +298,14 @@ h1 ,h2 ,h3 ,h4 ,h5 , h6{
     }
 }
 
+@media only screen and (max-width: 600px) {
+    .background-main-menu {
+        margin-top: -283%;
+    }
+    .size-banner-login {
+        height: 1800px;
+    }
+}
 
 @media only screen and (max-width: 450px) {
     .background-main-menu {
@@ -315,7 +334,7 @@ h1 ,h2 ,h3 ,h4 ,h5 , h6{
 }
 @media only screen and (max-width: 376px){
     .background-main-menu {
-        margin-top: -385%;
+        margin-top: -410%;
     }
 }
 

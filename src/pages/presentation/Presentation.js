@@ -21,7 +21,6 @@ import "./Presentation.css";
 //file import
 import MenuServiceMain from "../ServiceMenu/MenuServiceMain";
 import MenuServicePopular from "../ServiceMenu/MenuServicePopular";
-import MenuServiceAll from "../ServiceMenu/MenuServiceAll";
 import Promotion from "../Promotion/Promotion";
 import PromotePr from "../Promotion/PromotePr";
 import PartnerSlide from "../Partner/PartnerSlide";
